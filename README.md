@@ -4,12 +4,15 @@
 
 I am following up on Dana's dynamic web page, and adding filter logic to allow for filtering on multiple criteria. I am going to do that by creating a function which finds when data is added, and applies logic to read for that input.
 
-## Results
+## Results Instructions
 
-1. The images below show the average weather of Oahu, in June and December.
-2. June has an average weather of 74.9 degrees, which is a great temperature for a Surf/ Ice cream shop, and even better the average temperature in December is only 3 degrees lower.
-3. Following the other data points you can see that even at the 25% the temperature only deviates about 2 degrees away from the mean, not even 1 full standard deviation away.
-4. December does have a much lower minimum temperature, but that does not have a large on any other metric.
+The images below show the empty filter options. To be able to filter on any of the fields you need to copy the format, as seen in the placeholder.
+
+![Empty fields](https://github.com/CaptCarmine/UFOs/blob/main/static/images/Images_empty.png?raw=true)
+
+Date needs to be in the format of ##/##/####, indicating month day and year.
+for the other fields you need to put in the information you are looking for without quotes.
+as an example if you put state = ca , and Shape as triangle you will see the results as seen in the Results example.
 
 ### Results Example
 
